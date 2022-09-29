@@ -1,0 +1,77 @@
+body {
+    background-color: white;
+}
+main {
+    display: flex;
+    
+}
+
+.search-form {
+    display: flex;
+    width: 364px;
+    height: 41px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 29px;
+}
+
+.search-clothes {
+    height: 100%;
+    width: 301px;
+    border-radius: 30px;
+    border: none;
+    background-color: #EEEDED;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.suscribe-ring {
+    width: 41px;
+    height: 41px;
+    border-radius: 50px;
+    background-color: #EEEDED;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring-img {
+    width: 20px;
+    height: 20px;
+}
+
+.sale-news {
+    display: flex;
+    width: 364px;
+    height: 108px;
+    background: url(../images/home-images/Saleoff.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    margin-top: 23px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    align-items: center;
+}
+
+.most-popular {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 16px;
+
+}
+
+.percent-off {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    margin-left: 94px;
+
+}
