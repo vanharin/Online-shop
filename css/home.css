@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    position: relative;
 }
 
 .search-form {
@@ -211,4 +212,24 @@ body {
     font-size: 12px;
     line-height: 18px; 
     color: #121212;
+}
+
+.site-nav {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    width: 364px;
+    height: 52px;
+    background-color: #EEEDED;
+    border-radius: 30px;
+    bottom: 0%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.nav-elements {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
 }
