@@ -1,81 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link href="css/home.css" rel="stylesheet" type="text/css">
-    <link href="css/reset.css" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link href="css/home.css" rel="stylesheet" type="text/css" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-    <form class="search-form" action="">
-        <input type="text" class="search-clothes" placeholder="Search clothes...">
-        <div class="suscribe-ring"><img class="ring-img" src="images/home-images/Notification.svg" alt=""></div>
-    </form>
+      <form class="search-form" action="">
+        <div class="searcher">
+        <button class="searcher-img"><img class="searcher-img-img" src="images/home-images/searcher.png" alt=""></button>
+        <input
+          type="text"
+          class="search-clothes"
+          placeholder="Search clothes..."
+        />
+      </div>
+        <button class="subscribe-ring">
+          <img
+            class="ring-img"
+            src="images/home-images/Notification.svg"
+            alt=""
+          />
+        </button>
+      </form>
 
-    <section class="sale-news">
-        <div class="most-popular"> 
-            <p>The most popular</p> 
-            <p>clothes today</p>
+      <a href="" class="sale-news">
+        <div class="most-popular">
+          <p>The most popular</p>
+          <p>clothes today</p>
         </div>
         <div class="percent-off">
-            <p>50%</p>
-            <p>OFF</p>
+          <p>50%</p>
+          <p>OFF</p>
         </div>
+      </a>
+
+      <div class="filters">
+        <a class="filters-elements" href="cart.html">All</a>
+        <a class="filters-elements" href="">Shirt</a>
+        <a class="filters-elements" href="">Jeans</a>
+        <a class="filters-elements" href="">Other</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="products">
+        <div class="clothes">
+        <div class="clothes-show">
+          <img src="images/home-images/Black-man.png" alt="" />
+        </div>
+        <a href="" class="clothes-name">Black Crew Neck T-shirt</a>
+        <p class="clothes-price">100$</p>
+      </div>
+      <div class="clothes">
+        <div class="clothes-show">
+          <img src="images/home-images/Black-woman.png" alt="" />
+        </div>
+        <a href="" class="clothes-name">Black Crew Neck T-shirt</a>
+        <p class="clothes-price">100$</p>
+      </div>
+      <div class="clothes">
+        <div class="clothes-show">
+          <img src="images/home-images/Pink-man.png" alt="" />
+        </div>
+        <a href="" class="clothes-name">Pink Crew Neck T-shirt</a>
+        <p class="clothes-price">100$</p>
+      </div>
+      <div class="clothes">
+        <div class="clothes-show">
+          <img src="images/home-images/Pink-woman.png" alt="" />
+        </div>
+        <a href="" class="clothes-name">Pink Crew Neck T-shirt</a>
+        <p class="clothes-price">100$</p>
+      </div>
+      <div class="clothes">
+        <div class="clothes-show">
+          <img src="images/home-images/Woman-sportswear.png" alt="" />
+        </div>
+        <a href="" class="clothes-name">Slim Woman Sportswear</a>
+        <p class="clothes-price">200$</p>
+      </div>
+      <div class="clothes">
+        <div class="clothes-show">
+          <img src="images/home-images/Womans-gray-hoodie.png" alt="" />
+        </div>
+        <a href="" class="clothes-name">Woman`s Gray Hoodie</a>
+        <p class="clothes-price">150$</p>
+      </div>
+      <div class="clothes">
+        <div class="clothes-show">
+          <img src="images/home-images/Woman-dress-with-stripes.png" alt="" />
+        </div>
+        <a href="" class="clothes-name">Woman Dress With Stripes</a>
+        <p class="clothes-price">180$</p>
+      </div>
+      <div class="clothes">
+        <div class="clothes-show">
+          <img src="images/home-images/Woman`s-pink-sleepwear.png" alt="" />
+        </div>
+        <a href="" class="clothes-name">Woman’s Pink Sleepwear</a>
+        <p class="clothes-price">180$</p>
+      </div>
     </section>
+    </main>
 
-    <div class="filters">
-        <a href="">All</a>
-        <a href="">Shirt</a>
-        <a href="">Jeans</a>
-        <a href="">Other</a>
-    </div>
-</header>
-
-
-<main>
-<div class="clothes">
-    <div class="clothes-show"><img src="images/home-images/Black-man.png" alt=""></div>
-    <p class="clothes-name">Black Crew Neck T-shirt</p>
-    <p class="clothes-price">100$</p>    
-</div>
-<div class="clothes">
-    <div class="clothes-show"><img src="images/home-images/Black-woman.png" alt=""></div>
-    <p class="clothes-name">Black Crew Neck T-shirt</p>
-    <p class="clothes-price">100$</p>
-</div>
-<div class="clothes">
-    <div class="clothes-show"><img src="images/home-images/Pink-man.png" alt=""></div>
-    <p class="clothes-name">Pink Crew Neck T-shirt</p>
-    <p class="clothes-price">100$</p>
-</div>
-<div class="clothes">
-    <div class="clothes-show"><img src="images/home-images/Pink-woman.png" alt=""></div>
-    <p class="clothes-name">Pink Crew Neck T-shirt</p>
-    <p class="clothes-price">100$</p>
-</div>
-<div class="clothes">
-    <div class="clothes-show"><img src="images/home-images/Pink-man.png" alt=""></div>
-    <p class="clothes-name">Blue Crew Neck T-shirt</p>
-    <p class="clothes-price">100$</p>
-</div>
-<div class="clothes"> 
-    <div class="clothes-show"><img src="images/home-images/Pink-woman.png" alt=""></div>
-    <p class="clothes-name">Blue Crew Neck T-shirt</p>
-    <p class="clothes-price">100$</p>
-</div>
-</main>
-
-<nav class="site-nav">
-    <a href="" class="home"></a>
-    <a href="" class="liked"></a>
-    <a href="" class="cart"></a>
-    <a href="" class="profile"></a>
-</nav>
-</body>
+    <nav class="site-nav">
+      <a href="" class="home"></a>
+      <a href="" class="liked"></a>
+      <a href="" class="cart"></a>
+      <a href="" class="profile"></a>
+    </nav>
+  </body>
 </html>

@@ -18,6 +18,7 @@ body {
     border-radius: 50px;
     background-color: #EEEDED;
     position: relative;
+    cursor: pointer;
 }
 
 .back::after {
@@ -62,15 +63,21 @@ body {
     position: relative;
 }
 
-.trash-can-img {
+.trash-can-button {
     position: absolute;
     width: 20px;
     height: 20px;
     right: 0px;
+    padding: 0;
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
 
 .discribe {
 margin-left: 21px;
+text-decoration: none;
+color: #000000;
 }
 
 .discribe-text {
@@ -126,6 +133,8 @@ margin-left: 21px;
     border-radius: 20px;
     padding-left: 18px;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
 }
 
 .payment-method::before {
@@ -219,5 +228,6 @@ margin-left: 21px;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 2px;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
