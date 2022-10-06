@@ -1,0 +1,135 @@
+.onboarding1 {
+  background-image: url(../images/onboarding-images/onb1.png);
+  width: 428px;
+  height: 926px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-size: cover;
+  z-index: 1;
+}
+
+.skip {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.discribe {
+  display: flex;
+  flex-direction: column;
+  margin-left: 31px;
+  margin-top: 80px;
+}
+
+.collection-year {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.collection-season {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 135%;
+  margin-left: 25px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px 23px;
+}
+
+.swipe-up {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 13px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.swipe-arrow {
+  background-image: url(../images/onboarding-images/ScrollUp.png);
+  width: 22px;
+  height: 22px;
+  background-size: cover;
+}
+
+/* onboarding2 */
+
+.onboarding2 {
+  background-image: url(../images/onboarding-images/onb2.png);
+  width: 428px;
+  height: 926px;
+  position: relative;
+}
+
+.skip-white {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.discribe-white {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.month-collection {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 135%;
+  color: #ffffff;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  padding-top: 10px;
+}
+
+.swipe-up-white {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 13px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.swipe-arrow-white {
+  background-image: url(../images/onboarding-images/ScrollUpWhite.png);
+  width: 22px;
+  height: 22px;
+  background-size: cover;
+}

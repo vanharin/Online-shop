@@ -1,53 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Onboarding</title>
-    <link href="css/onboardings.css" rel="stylesheet" type="text/css">
-    <link href="css/reset.css" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-<section class="onboarding1">
-    <div class="onboarding-switch">
-        <label>
-            <input type="radio" name="switch">
-        </label>
-        <label>
-            <input type="radio" name="switch">
-        </label>
-    </div>
+    <link href="css/onboardings.css" rel="stylesheet" type="text/css" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <section class="onboarding1">
+        <div class="header">
+          <div class="onboarding-switch">
+            <label>
+              <input type="radio" name="switch" id="switch" />
+            </label>
+            <label>
+              <input type="radio" name="switch" />
+            </label>
+          </div>
+          <button class="skip">Skip</button>
+        </div>
+        <section class="discribe">
+          <span class="collection-year">2022</span>
+          <span class="collection-season">Best Summer Collection</span>
+        </section>
 
-    <div class="skip">Skip</div>
+        <a href="" class="swipe-up">
+          <div class="swipe-arrow"><img src="" alt="" /></div>
+          <div class="swipe-up-text">Swipe up for detail</div>
+        </a>
+      </section>
 
-    <section class="discribe">
-        <span class="collection-year">2022</span>
-        <span class="collection-season">Best Summer Collection</span>
+      <section class="onboarding2">
+        <div class="header">
+          <div class="onboarding-switch-container">
+            <div class="onboarding-switch">
+              <input
+                type="radio"
+                class="switch-white-input"
+                name="slide-white"
+                id="slide-white1"
+              />
+              <label class="switch-white-label" for="slide-white1"></label>
+            </div>
+            <div class="onboarding-switch">
+              <input
+                type="radio"
+                class="switch-white-input"
+                name="slide-white"
+                id="slide-white2"
+              />
+              <label class="switch-white-label" for="slide-white2"></label>
+            </div>
+          </div>
+          <button class="skip-white">Skip</button>
+        </div>
+
+        <section class="discribe-white">
+          <span class="month-collection">Best of this month </span>
+          <span class="month-collection">Collection</span>
+        </section>
+        <!-- сделать стрелку псевдоэлементом     -->
+
+        <a href="" class="swipe-up-white">
+          <div class="swipe-arrow-white"><img src="" alt="" /></div>
+          <div class="swipe-up-text-white">Swipe up for detail</div>
+        </a>
+      </section>
     </section>
-    <!-- сделать стрелку псевдоэлементом     -->
-        <span class="swipe-up">Swipe up for detail</span>
-</section>
-
-<div class="onboarding-switch">
-    <label>
-        <input type="radio" name="switch">
-    </label>
-    <label>
-        <input type="radio" name="switch">
-    </label>
-</div>
-<div class="skip">Skip</div>
-    <section class="discribe">
-        <span class="month-collection">Best of this month Collection</span>
-    </section>
-    <!-- сделать стрелку псевдоэлементом     -->
-        <span class="swipe-up">Swipe up for detail</span>
-</section>
-
-
-</body>
+  </body>
 </html>

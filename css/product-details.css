@@ -1,0 +1,141 @@
+body {
+  width: 428px;
+  height: 100%;
+  background: #fff;
+}
+.shop-window {
+  position: relative;
+  width: 100%;
+  height: 623px;
+  background-image: url(../images/product-images/man-black-tshirt.png);
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.butt-container {
+  width: 100%;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 30px 0px 30px;
+}
+
+.back-butt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #eeeded;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.like-butt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #eeeded;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.back-img {
+  width: 20px;
+  height: 20px;
+}
+
+.like-img {
+  width: 20px;
+  height: 20px;
+}
+
+.main {
+  background-color: #fff;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px 25px 25px;
+  align-items: center;
+}
+
+.clothe-discribe {
+  width: 100%;
+  height: 50px;
+}
+
+.discribe-head {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.clothes-sex {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.clothes-discribe {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.colors-choose {
+  display: flex;
+  flex-direction: row;
+}
+
+.tally-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.describer {
+  width: 100%;
+  margin-bottom: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(18, 18, 18, 0.55);
+}
+
+.add-butt {
+  width: 310px;
+  height: 50px;
+  background: black;
+  border-radius: 30px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #eeeded;
+}

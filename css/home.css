@@ -36,7 +36,7 @@ body {
     border-radius: 10px;
 }
 
-.searcher-img-img {
+.searcher-img-block {
     width: 20px;
     height: 20px;
 }
@@ -54,6 +54,8 @@ body {
     font-size: 15px;
     line-height: 22px;
     color: black;
+    outline: none;
+    border: none;
 }
 
 .subscribe-ring {
