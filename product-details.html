@@ -31,10 +31,14 @@
           <div class="clothes-sex">Men's T-Shirt</div>
           <div class="colors-choose">
             <div class="switcher">
-              <input type="radio" id="black" name="color-swicher" />
+              <label class="switcher-label" for="black">
+                <input type="radio" id="black" name="color-swicher" />
+              </label>
             </div>
             <div class="switcher">
-              <input type="radio" id="pink" name="color-swicher" />
+              <label class="switcher-label" for="pink">
+                <input type="radio" id="pink" name="color-swicher" />
+              </label>
             </div>
           </div>
         </div>
@@ -43,9 +47,11 @@
 
       <div class="tally-counter">
         <div class="counter">
-          <span class="minus">-</span>
-          <input type="text" value="1" size="5" />
-          <span class="plus">+</span>
+          <button class="minus"><div class="signs">-</div></button>
+          <div class="text-counter">
+            <input type="text" value="01" size="5" />
+          </div>
+          <button class="plus"><div class="signs">+</div></button>
         </div>
         <div class="price">100$</div>
       </div>

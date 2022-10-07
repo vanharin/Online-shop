@@ -115,6 +115,60 @@ body {
   font-size: 25px;
   line-height: 38px;
 }
+.counter {
+  display: flex;
+  flex-direction: row;
+}
+
+.minus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  border: solid 1px black;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  border: solid 1px black;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.signs {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 34px;
+  color: #121212;
+}
+
+.text-counter {
+  width: 25px;
+  height: 30px;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.text-counter input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #121212;
+}
 
 .describer {
   width: 100%;
@@ -138,4 +192,69 @@ body {
   font-size: 15px;
   line-height: 22px;
   color: #eeeded;
+  cursor: pointer;
 }
+
+.switcher {
+  width: 28px;
+  height: 28px;
+  position: relative;
+}
+
+.switcher-label input[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.switcher-label[for="black"]::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #121212;
+}
+
+.switcher-label[for="pink"]::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: pink;
+}
+
+.switcher-label[for="black"]::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border: 1px solid black;
+  border-radius: 50%;
+  right: 4px;
+  bottom: 4px;
+  opacity: 0;
+}
+
+.switcher label[for="pink"]::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border: 1px solid pink;
+  border-radius: 50%;
+  right: 4px;
+  bottom: 4px;
+  opacity: 0;
+}
+
+.switcher-label input[type="pink"]:checked + label[for="pink"]::after {
+  opacity: 1;
+}
+
+.switcher-label input[type="black"]:checked + label[for="black"]::after {
+  opacity: 1;
