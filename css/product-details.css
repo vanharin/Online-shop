@@ -201,14 +201,21 @@ body {
   position: relative;
 }
 
-.switcher-label input[type="radio"] {
+.switcher-input-black {
   position: absolute;
   width: 1px;
   height: 1px;
   opacity: 0;
 }
 
-.switcher-label[for="black"]::before {
+.switcher-input-pink {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.switcher-label-black::before {
   content: "";
   display: inline-block;
   width: 20px;
@@ -217,16 +224,16 @@ body {
   background: #121212;
 }
 
-.switcher-label[for="pink"]::before {
+.switcher-label-pink::before {
   content: "";
   display: inline-block;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: pink;
+  background: rgb(250, 162, 177);
 }
 
-.switcher-label[for="black"]::after {
+.switcher-label-black::after {
   content: "";
   display: inline-block;
   position: absolute;
@@ -239,22 +246,22 @@ body {
   opacity: 0;
 }
 
-.switcher label[for="pink"]::after {
+.switcher-label-pink::after {
   content: "";
   display: inline-block;
   position: absolute;
   width: 28px;
   height: 28px;
-  border: 1px solid pink;
+  border: 1px solid rgb(250, 162, 177);
   border-radius: 50%;
   right: 4px;
   bottom: 4px;
   opacity: 0;
 }
 
-.switcher-label input[type="pink"]:checked + label[for="pink"]::after {
+.switcher-input-pink:checked + .switcher-label-pink::after {
   opacity: 1;
 }
 
-.switcher-label input[type="black"]:checked + label[for="black"]::after {
+.switcher-input-black:checked + .switcher-label-black::after {
   opacity: 1;

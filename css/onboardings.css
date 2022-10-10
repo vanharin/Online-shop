@@ -19,6 +19,31 @@
   cursor: pointer;
 }
 
+.onboarding-switch {
+  width: 37px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.switcher-black-checked {
+  width: 14px;
+  height: 14px;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.switcher-black {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+
 .discribe {
   display: flex;
   flex-direction: column;
@@ -92,6 +117,25 @@
   background: none;
   cursor: pointer;
 }
+
+.switcher-white-checked {
+  width: 14px;
+  height: 14px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.switcher-white {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+
 .discribe-white {
   display: flex;
   width: 100%;
