@@ -1,0 +1,237 @@
+body {
+    background-color: white;
+    position: relative;
+}
+
+.search-form {
+    display: flex;
+    width: 364px;
+    height: 41px;
+    flex-direction: row;
+    margin-top: 29px;
+}
+
+.searcher {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #EEEDED;
+    width: 301px;
+    height: 100%;
+    border-radius: 20px;
+    padding-left: 16px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.searcher-img {
+    width: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background-color: #EEEDED;
+    border-radius: 10px;
+}
+
+.searcher-img-block {
+    width: 20px;
+    height: 20px;
+}
+
+
+.search-clothes {
+    height: 100%;
+    width: 80%;
+    border: none;
+    background-color: #EEEDED;
+    margin-left: 13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+.subscribe-ring {
+    width: 41px;
+    height: 41px;
+    margin-left: 22px;
+    border-radius: 50px;
+    background-color: #EEEDED;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.ring-img {
+    width: 20px;
+    height: 20px;
+}
+
+.sale-news {
+    display: flex;
+    width: 364px;
+    height: 108px;
+    background: url(../images/home-images/Saleoff.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    margin-top: 23px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    text-decoration: none;
+}
+
+.most-popular {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 16px;
+
+}
+
+.percent-off {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    margin-left: 94px;
+
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 23px;
+    margin-bottom: 40px;
+}
+
+.filters-elements {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #212121;
+    text-decoration: none;
+    background-color: #EEEDED;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 100%;
+    border-radius: 16px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+
+}
+
+.filters-elements:focus {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0c0c0c;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 100%;
+    border-radius: 16px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.filters-elements:hover {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0c0c0c;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 100%;
+    border-radius: 16px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clothes {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.clothes-show img {
+    border-radius: 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.clothes-name {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.7);;
+    padding-top: 10px;
+}
+
+.clothes-price{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px; 
+    color: #121212;
+}
+
+.site-nav {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    width: 364px;
+    height: 52px;
+    background-color: #EEEDED;
+    border-radius: 30px;
+    bottom: 0%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.nav-elements {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
